@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Events - Dadaba Music</title>
+<link href="dadaba.css" type="text/css" rel="stylesheet"/>
+<link href="events.css" type="text/css" rel="stylesheet"/>
+	<link href="icon/logo.png" rel="shortcut icon"/>
+	
+<script src="events.js"></script>
+</head>
+
+<body onLoad="animationEvent()">
+	<div id="menu">
+		<a href="homepage.html"><div id="logo"><img src="image/logo.jpg"/></div></a>
+		<div id="menu0">
+		<a href="homepage.html" style="text-decoration: none; color: white"><div id="menu1">HOMEPAGE</div></a>
+		<div id="menu2" style="color:#e7008a">EVENTS</div>
+		<a href="bookticket.html" style="text-decoration: none; color: white"><div id="menu3">BOOK TICKET</div></a>
+		<a href="news.html" style="text-decoration: none; color: white"><div id="menu4">NEWS</div></a>
+		<a href="contact.html" style="text-decoration: none; color: white"><div id="menu5">CONTACT</div></a>
+		</div>
+	</div>
+	
+	<div class="singer" id="singera">
+		<div class="album" style="background-image: url(image/taylorswift.jpg)">
+		</div>
+		<div class="info">
+		<div class="tourInfo">
+			<p style="font-family: roboto black">TAYLOR SWIFT</p>
+			<p>Witness: The Tour</p>
+		</div>
+		<div class="ticketInfo">
+		<p>The Reputation Tour was the fifth concert tour by American singer-songwriter Taylor Swift, in support of her sixth studio album, Reputation (2018). The tour's European and North American dates, as well as two shows in Japan, were announced in November 2018, followed by the Oceania dates in December 2018.</p>
+		</div>
+		<div class="buttons">
+		<div class="detail" onClick="showDetail0()">Detail</div>
+		<div class="buyTicket" onClick="moveToBook()">Buy Ticket</div>
+		</div>
+			</div>
+		
+		<div class="detailOpen" id="detailOpen">
+			<div class="detailMenu">
+			<div id="information0" onClick="showDetail()">Information</div>
+			<div id="ticketOption0" onClick="showDetail2()">Ticket</div>
+			<div id="stage0" onClick="showDetail3()">Stage</div>
+			<div id="closeDetail" onClick="closeDetail()">X</div>
+			</div>
+			
+			<div class="detailOption" id="information">
+			
+			</div>
+			
+			<div class="detailOption" id="ticketOption">
+			<img src="image/svip.jpg"/>
+			<img src="image/ga.jpg"/>
+			<img src="image/vip.jpg"/>
+			</div>
+			
+			<div class="detailOption" id="stage">
+			<img src="image/stage.jpg"/>
+			</div>
+			
+		</div>
+	
+	</div>
+	
+	<div class="singer" id="singerb">
+	<div class="album" style="background-image: url(image/katyperry.jpg)">
+		</div>
+		<div class="info">
+		<div class="tourInfo">
+			<p style="font-family: roboto black">KATY PERRY</p>
+			<p>Witness Tour</p>
+		</div>
+		<div class="ticketInfo">
+		<p>Witness: The Tour is the fourth concert tour by American singer-songwriter Katy Perry, in support of her fifth studio album, Witness (2017).[1] The tour began on September 19, 2017, in Montreal, Canada, at the Bell Centre, and is scheduled to conclude on August 21, 2018, in Auckland, New Zealand at the Spark Arena.</p>
+		</div>
+		<div id="buyTicketKaty">
+		<div class="detail" onClick="showDetailKaty()">Detail</div>
+		<div class="buyTicket" onClick="moveToBook()">Buy Ticket</div>
+		</div>
+			</div>
+	</div>
+		
+		
+	
+	<div class="singer" id="singerc">
+	<div class="album" style="background-image: url(image/selenagomez.jpg)">
+		</div>
+		<div class="info">
+		<div class="tourInfo">
+		  <p style="font-family: roboto black">SELENA GOMEZ</p>
+			<p>Tour of Wolves</p>
+		</div>
+		<div class="ticketInfo">
+		  <p>The Tur of Wolves was the third solo concert tour by Selena Gomez, in support of her second solo studio album Wolves (2018). The tour began in Las Vegas, Nevada at the Mandalay Bay Events Center on May 6, 2018, and concluded in Auckland, New Zealand at the Vector Arena on August 13, 2018.</p>
+		</div>
+		<div id="buyTicketSelena">
+		<div class="detail" onClick="showDetailSelena()">Detail</div>
+		<div class="buyTicket" onClick="moveToBook()">Buy Ticket</div>
+		</div>
+	  </div>
+	</div>
+	<div id="footer">
+	<div id="phoneMail">
+	<p class="medium"><span class="symbol">&#xf095;</span> Hotline</p>
+	<p>Ho Chi Minh: Monday - Friday<br />(8:30 AM - 7:30 PM)</p>
+	<p class="phone">028.7300.7998</p>
+	<p>Hanoi: Monday - Friday<br />(9:30 AM - 6:30 PM)</p>
+	<p class="phone">024.7300.1235</p>
+		<p class="medium"><span class="symbol">&#xf003;</span> Support Email</p>
+	<p>support@dadabamusic.com</p>
+	<br/>
+	</div>
+	<div id="addressMap">
+		<p class="medium"><span class="symbol">&#xf041;</span> Address</p>
+	<p class="phone">Ho Chi Minh Office</p>
+	<p>1st Floor, H3 Building, 384 Hoang Dieu,<br />Dist.4, HCMC</p>
+	<a href="https://goo.gl/maps/dkK2zih5eU82" style="text-decoration: none;" target="_blank"><p class="viewMap">View map</p></a>
+	<p class="phone">Ha Noi Office</p>
+	<p>Room 608, 6th Floor , 142 Le Duan,<br />Kham Thien Ward, Dong Da District, Ha Noi City</p>
+	<a href="https://goo.gl/maps/hUtyBJ7XC7M2" style="text-decoration: none;" target="_blank"><p class="viewMap">View map</p></a>
+	</div>
+	<div id="downSocial">
+		<div id="download">
+		<a href="https://itunes.apple.com/app/apple-store/id1041900498?mt=8" target="_blank"><div id="appStore"></div></a>
+		<a href="https://play.google.com/store/apps/details?id=ticketbox.event.user&referrer=utm_source%3Dtkbvn-website%26utm_medium%3Dreferral%26utm_campaign%3Dapp-landing-page" target="_blank"><div id="googlePlay"></div></a>
+		</div>
+		<div id="social">
+		<div id="media">
+		<a href="https://www.facebook.com/livenation" target="_blank"><div id="fbi"></div></a>
+		<a href="http://instagram.com/livenation" target="_blank"><div id="isi"></div></a>
+		<a href="https://www.youtube.com/user/livenation" target="_blank"><div id="yti"></div></a>
+		<a href="https://www.twitter.com/livenation" target="_blank"><div id="twi"></div></a>
+	</div>
+		</div>
+		
+	</div>
+	<div id="lience">
+		<div id="lience1">USA's premier ticketing platform for music events<br />Dadaba Music Co. Ltd. © 2017
+		</div>
+		<div id="lience2">Business License 0313605444 issued on 07/01/2017<br />by HCMC Department of Planning and Investment
+		</div>
+	</div>
+</div>
+</body>
+</html>

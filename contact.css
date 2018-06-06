@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+#biglogo
+{
+	width: 50%;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+
+#info2
+{
+	width: 50%;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+
+#biglogo img
+{
+	width: 90%;
+	margin-top: 150px;
+	box-sizing: border-box;
+}
+
+#info2
+{
+	font-family: roboto light;
+	color: white;
+	font-size: 15px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	line-height: 5px;
+}
+
+.medium
+{
+	font-family: roboto black;
+}
+
+.phone
+{
+	font-size: 18px;
+	color: #e7008a;
+}
+
+#media
+{
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+}
+
+#fbi
+{
+	background-image: url(icon/facebookwhite.png);
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	transition: all 0.2s;
+	float: left;
+}
+
+#isi
+{
+	background-image: url(icon/instagramwhite.png);
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	transition: all 0.2s;
+	float: left;
+}
+
+#yti
+{
+	background-image: url(icon/youtubewhite.png);
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	transition: all 0.2s;
+	float: left;
+}
+
+#twi
+{
+	background-image: url(icon/twitterwhite.png);
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	transition: all 0.2s;
+	float: left;
+}
+
+#fbi:hover{background-image: url(icon/facebook.png)}
+#isi:hover{background-image: url(icon/instagram.png)}
+#yti:hover{background-image: url(icon/youtube.png)}
+#twi:hover{background-image: url(icon/twitter.png)}
+
+#map
+{
+	width: 100%;
+	height: 600px;
+	float: left;
+}

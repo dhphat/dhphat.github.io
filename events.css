@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+.singer
+{
+	width: 100%;
+	/*hồng: e7008a
+cam: fe6b49*/
+	height: 450px;
+	float: left;
+	background: radial-gradient(#fe6b49,#e7008a);	
+	border-top: 2px solid white;
+	box-sizing: border-box;
+	z-index: 1;
+	transition: all 0.4s;
+}
+
+.detailOpen
+{
+	width: 100%;
+	height: 450px;
+	float: left;
+	background: white;	
+	border-top: 2px solid white;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 0;
+	top: 50px;
+	visibility: hidden;
+	transition: all 0.4s;
+	opacity: 1;
+	z-index: 10;
+}
+
+.album
+{
+	width: 30%;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-top: 50px;
+	margin-left: 5%;
+	box-sizing: border-box;
+	box-shadow: 0 0 6px 0px black;
+}
+
+.info
+{
+	width: 65%;
+	height: 250px;
+	overflow:hidden;
+}
+
+.tourInfo
+{
+	font-family: roboto;
+	width: 50%;
+	height: 100px;
+	float: left;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 10%;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 5px;
+	line-height: 1px;
+	box-sizing: border-box;
+}
+
+.ticketInfo
+{
+	width: 50%;
+	height: 200px;
+	float: left;
+	position: absolute;
+	margin-top: 115px;
+	margin-left: 10%;
+	font-family: roboto light;
+	color: white;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.buttons
+{
+	width: 50%;
+}
+
+.detail
+{
+	width: 10%;
+	height: 22px;
+	float: left;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 10%;
+	border-radius: 10px 10px 10px 10px;
+	color: #e7008a;
+	font-family: roboto medium;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.buyTicket
+{
+	width: 16%;
+	height: 22px;
+	float: left;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 22%;
+	border-radius: 10px 10px 10px 10px;
+	color: #e7008a;
+	font-family: roboto medium;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.buyTicket:hover{color:white; background-color: #e7008a}
+.detail:hover{color:white; background-color: #e7008a}
+
+.detailMenu
+{
+	width: 100%;
+	height: 50px;
+	font-family: roboto black;
+	font-size: 20px;
+}
+
+#information0
+{
+	width: 20%;
+	height: 30px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 5%;
+	border-radius: 10px 10px 10px 10px;
+	color: #e7008a;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+#ticketOption0
+{
+	width: 16%;
+	height: 30px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 5%;
+	border-radius: 10px 10px 10px 10px;
+	color: #e7008a;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+#closeDetail
+{
+	width: 16%;
+	height: 30px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 5%;
+	border-radius: 10px 10px 10px 10px;
+	color: black;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+#stage0
+{
+	width: 16%;
+	height: 30px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 5%;
+	border-radius: 10px 10px 10px 10px;
+	color: #e7008a;
+	background-color: white;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+#information0:hover{color:white; background-color: #e7008a}
+#ticketOption0:hover{color:white; background-color: #e7008a}
+#stage0:hover{color:white; background-color: #e7008a}
+#closeDetail:hover{color: #e7008a}
+
+.detailOption
+{
+	width: 70%;
+	height: 200px;
+	font-family: roboto light;
+	float: left;
+	margin-top: 90px;
+	margin-left: 15%;
+	font-size: 17px;
+	visibility: hidden;
+	position: absolute;
+}
+
+#information
+{
+	margin-left: 6%;
+}
+
+.detailOption img
+{
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+}
+
+#stage img
+{
+	width: 400px;
+	height: 282px;
+	margin-left: 15%;
+}
+#singera { transition: all 0.5s; opacity: 0}
+#singerb { transition: all 0.5s; opacity: 0}
+#singerc { transition: all 0.5s; opacity: 0}
+#detailOpen { transition: all 0.5s; opacity: 0}
+

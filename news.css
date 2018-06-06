@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+#NewsPage
+{
+	width: 100%;
+	height: 105px;
+	font-family: roboto black;
+	font-size: 40px;
+	background-color: #e7008a;
+	box-sizing: border-box;
+	padding-left: 45%;
+}
+
+.news
+{
+	width: 100%;
+	height: 340px;
+	float: left;
+	font-family: roboto;
+	padding-top: 20px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #e7008a;
+}
+
+.day
+{
+	width: 15%;
+	height: 340px;
+	float: left;
+	font-size: 12px;
+	padding-top: 50px;
+	padding-left: 5%;
+	box-sizing: border-box;
+	color: #e7008a;
+	font-family: roboto light;
+}
+
+.thum
+{
+	width: 30%;
+	height: 340px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 20px;
+
+}
+
+.thum img
+{
+	width: 350px;
+	height: 250px;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+.textNews
+{
+	width: 55%;
+	height: 340px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 30px;
+	padding-right: 30px;
+}
+
+.titleNews
+{
+	width: 100%;
+	font-family: roboto black;
+	font-size: 25px;
+	float: left;
+	height: 100px;
+	transition: all 0.4s;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.titleNews:hover{color: #e7008a}
+.thum>img:hover{transform: scale(1.1)}
+
+.descripNews
+{
+	width: 100%;
+	height: 200px;
+	float: left;
+	color: #3F3F3F;
+}
+#newsa { transition: all 0.5s;opacity: 0}
+#newsb { transition: all 0.5s;opacity: 0}
+#newsc { transition: all 0.5s;opacity: 0}
